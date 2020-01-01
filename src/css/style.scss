@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'MyFont';
+  src: url('./fonts/DalaMoaRegularNo2.otf');
+}
+
+body {
+  background-color: #0d1722;
+}
+
+body, html, #app, .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+}

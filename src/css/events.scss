@@ -1,0 +1,32 @@
+.events {
+  margin-top: 150px;
+  color: white;
+  font-family: MyFont;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  p {
+    padding: 0px 30%;
+    font-family: sans-serif !important;
+    font-weight: 100;
+    font-size: .8em;
+  }
+}
+
+.events-pictures {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.eventBox {
+  width: 200px;
+  height: 400px;
+}
+
+.events-pictures-container {
+  display: flex;
+  flex-direction: row;
+
+}
