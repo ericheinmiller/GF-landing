@@ -3,8 +3,8 @@ import EventBox from './eventBox';
 
 export default () => (
   <div className="events">
-    <h1>Events</h1>
-    <p>
+    <h1 className="events-title">Events</h1>
+    <p className="events-subtitle">
       Lorem words are words that would see if this was some kind of Canadian thing. However this was manufactured in California, so the use of Lorem words aren't as appreciated.
     </p>
     <div className="events-pictures">

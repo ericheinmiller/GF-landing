@@ -2,16 +2,15 @@ import React from 'react';
 
 export default () => (
   <div className="eventBox">
-    <div className="eventBox-upper">
-      <img src="https://picsum.photos/200" alt="random lorem" />
-    </div>
-    <div className="eventBox-lower">
-      <h2>
-        This is a Lorem Title
-      </h2>
-      <p>
-        And this is pretty much some random Lorem text
-      </p>
-    </div>
+    <img className="eventBox-image" src="https://picsum.photos/250/150/" alt="random lorem" />
+    <h2 className="eventBox-title">
+      This is a Lorem Title
+    </h2>
+    <p className="eventBox-subTitle">
+      Lorem Ipsum random love
+    </p>
+    <p className="eventBox-time">
+      Oct 15, 2018
+    </p>
   </div>
 );

@@ -1,16 +1,21 @@
 .events {
   margin-top: 150px;
-  color: white;
-  font-family: MyFont;
   display: flex;
   flex-direction: column;
   align-items: center;
-  p {
+}
+
+.events-subtitle {
     padding: 0px 30%;
     font-family: sans-serif !important;
     font-weight: 100;
     font-size: .8em;
-  }
+    color: white;
+}
+
+.events-title {
+  color: white;
+  font-family: MyFont;
 }
 
 .events-pictures {
@@ -18,15 +23,50 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .eventBox {
-  width: 200px;
-  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgb(235, 235, 235);
+  box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+  color: black;
+  width: 250px;
+  margin: 15px;
+}
+
+.eventBox-image {
+  width: 250px;
+}
+
+.eventBox-title {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: 1.2em;
+  color: blue;
+  margin-bottom: 0px;
+}
+
+.eventBox-subTitle{
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: .9em;
+}
+
+.eventBox-time {
+  font-family: sans-serif;
+  font-weight: 100;
+  font-size: .8em;
+  color: gray;
+  margin-left: auto;
+  margin-right: 20px;
 }
 
 .events-pictures-container {
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
 }
